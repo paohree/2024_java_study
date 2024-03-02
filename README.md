@@ -2,8 +2,8 @@
 ##### idea from interview
 0. install
 1. basic
-variable, loop, condition, input
-2. CRUD
-3. Making data structure
-4. pacticing algorithm
-5. project
+   * variable, loop, condition, input
+3. CRUD
+4. Making data structure
+5. pacticing algorithm
+6. project with spring
