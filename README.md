@@ -1,4 +1,5 @@
-# paohreeJava
+##paohree's Java project
+#idea from interview
 ----
 1. basic
 variable, loop, condition, input
