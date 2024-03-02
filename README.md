@@ -1,7 +1,5 @@
 # paohree's Java project
-### idea from interview
-Let's go paduck
----
+##### idea from interview
 1. basic
 variable, loop, condition, input
 2. CRUD
