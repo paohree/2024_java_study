@@ -1,5 +1,5 @@
-## paohree's Java project
-# idea from interview
+# paohree's Java project
+### idea from interview
 Let's go paduck
 ---
 1. basic
