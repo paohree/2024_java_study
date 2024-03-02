@@ -1,5 +1,6 @@
 # paohree's Java project
 ##### idea from interview
+0. install
 1. basic
 variable, loop, condition, input
 2. CRUD
