@@ -1,0 +1,8 @@
+1. https://www.oracle.com/kr/java/technologies/downloads/
+    jdk 설치
+
+2. 터미널에서 java -version, javac -version
+
+3. 원래 경로설정 해야 하는 것으로 아는데 처음 깔아서 그런지 자동으로 붙은듯?
+
+4. 끝!

@@ -6,4 +6,4 @@
 3. CRUD
 4. Making data structure
 5. pacticing algorithm
-6. project with spring
+6. project with spring? maybe.
