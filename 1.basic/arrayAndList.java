@@ -1,3 +1,5 @@
+//i think i need more practice with arraylist, array.
+//i will do that beakjoon.
 import java.util.ArrayList;
 import java.util.Arrays;
 

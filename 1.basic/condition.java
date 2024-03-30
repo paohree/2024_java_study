@@ -1,3 +1,4 @@
+//there is not that big different with C.
 import java.util.ArrayList;
 
 public class condition {
