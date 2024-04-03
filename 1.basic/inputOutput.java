@@ -1,10 +1,13 @@
 //안써본거보다는 낫겠지?
 //inputstream, inputstreamreader, bufferedredaer가 있다.
 //int로 받은 두개를 변환하던지, bufferedreader를 쓰자.
+//buffered reader를 쓰려면 inputstream, inputstreamreader, bufferedreader 다 써야 한단다.
+//그래서 편하게 있는게 scanner라고 함. 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.Scanner;
 
 public class inputOutput {
     static public void main(String[] args) throws IOException{
@@ -42,5 +45,11 @@ public class inputOutput {
             case 2:System.out.println("헤이헤이헤이");
             break;
         }
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("나는 부자가 될 건가요?");
+        String name=scanner.nextLine();
+        System.out.println(name);
+        scanner.close();
     }
 }
