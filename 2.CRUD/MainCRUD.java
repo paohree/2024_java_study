@@ -42,6 +42,7 @@ public class MainCRUD {
             userWant=Integer.valueOf(bufferedReader.readLine());
             switch(userWant){
                 case 0:
+                scanner.close();
                 break;
                 case 1:
                 case 2:
