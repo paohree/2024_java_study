@@ -10,13 +10,16 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.util.List;
 import java.util.Scanner;
 
 public class MainCRUD {
     public static void main(String[] args) throws IOException{
-        ExcelCRUD excelRead = new ExcelCRUD();
-        ExcelCRUD excelSave = new ExcelCRUD();
+        ExcelCRUD excel = new ExcelCRUD();
         OperationCRUD operation = new OperationCRUD();
+        CoinManager coinManager = new CoinManager();
+
+        List<Coin> listForViews;
 
         //사용자 입력을 받을 때, 이걸 쓰던지
         InputStream in=System.in;
@@ -31,25 +34,31 @@ public class MainCRUD {
         int userWant=0;
 
         while(true){
+            System.out.println("0. Quit");
             System.out.println("1. create data");
             System.out.println("2. read board");
             System.out.println("3. update data");
             System.out.println("4. delete data");
             System.out.println("5. save as excel file");
             System.out.println("6. load excel file");
-            System.out.println("0. Quit");
             System.out.println("insert number: ");
             userWant=Integer.valueOf(bufferedReader.readLine());
             switch(userWant){
                 case 0:
-                scanner.close();
-                break;
+                    scanner.close();
+                    break;
                 case 1:
+                    operation.create(coinManager);
                 case 2:
+                    operation.read(coinManager);
                 case 3:
+                    operation.update(coinManager);
                 case 4:
+                    operation.delete(coinManager);
                 case 5:
+                    excel.save(coinManager);
                 case 6:
+                    excel.read(coinManager);
             }
 
         }

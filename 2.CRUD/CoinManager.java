@@ -1,7 +1,7 @@
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
-public class CoinManager {
+public class CoinManager {//코인 리스트 관리하는 것임
     private List<Coin> coins;
     public CoinManager(){
         this.coins = new ArrayList<>();
