@@ -3,19 +3,19 @@ import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.IOException;
-
-public class Main_iospeed{
+public class Main_star1{
     public static void main(String[] args) throws IOException{
-        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        String[] process;
-        int s=Integer.parseInt(bf.readLine());
-        for(int i=0;i<s;i++){
-            process=(bf.readLine()).split(" ");
-            bw.write(Integer.parseInt(process[0])+Integer.parseInt(process[1]));
+        int n=Integer.parseInt(br.readLine());
+        for(int i=0;i<n;i++){
+            for(int j=0;j<=i;j++){
+                bw.write("*");
+            }
+            bw.write("\n");
         }
-        bf.close();
         bw.flush();
         bw.close();
+        br.close();
     }
 }
